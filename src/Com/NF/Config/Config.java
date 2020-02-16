@@ -24,6 +24,7 @@ public class Config
 	public static String GetValueFromHashTable(String ParameterName)
 	{
 		return ht.get(ParameterName);
+		System.out.println("parameter values get scessfully);
 	}
 	
 	public static void fullscreenshot(String Dirpath,String filepath) throws IOException

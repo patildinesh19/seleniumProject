@@ -142,6 +142,7 @@ public class Addorganization extends TestBase
 				String screenfilepath= Config.fullscreenshotextentreport(Dirpath, filepath);
 				test.log(LogStatus.FAIL,"Test Is Failed",test.addScreenCapture(System.getProperty("user.dir")+"/"+screenfilepath));
 				test.log(LogStatus.INFO, "Organization Add is Failed");
+				System.out.println("FAILED");
 				
 			}
 		

@@ -108,6 +108,8 @@ public class LaunchandLoginintoNF15 extends TestBase
 			else
 			{
 				System.out.println("Launch Application FAILED");
+				System.out.println("Launch Application FAILED second time");
+	
 			}*/
 			
 			System.out.println("Launch Application PASS");

@@ -1,0 +1,13 @@
+Com\NF\NetForumScenarious\AddRelatedorganization.class
+Com\NF\NetForumScenarious\fFindOrganizationbyexcelvalue.class
+Com\NF\NetForumScenarious\LaunchandLoginintoNF15.class
+Com\NF\Config\TestBase.class
+test\java\NewTest.class
+Com\NF\NetForumScenarious\FindOrganization.class
+Com\NF\Config\Listener.class
+Com\NF\NetForumScenarious\Addorganization.class
+Com\NF\NetForumScenarious\VerifyOrganization.class
+Com\NF\Generic\GenericInput.class
+Com\NF\Config\Config.class
+Com\NF\Generic\GenericXpath.class
+Com\NF\NetForumScenarious\AddOrgMembership.class

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 52.391 s <<< FAILURE! - in TestSuite
+LaunchApplication(Com.NF.NetForumScenarious.LaunchandLoginintoNF15)  Time elapsed: 18.735 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Com.NF.NetForumScenarious.LaunchandLoginintoNF15.execute(LaunchandLoginintoNF15.java:120)
+	at Com.NF.NetForumScenarious.LaunchandLoginintoNF15.LaunchApplication(LaunchandLoginintoNF15.java:40)
+
+LaunchApplication(Com.NF.NetForumScenarious.LaunchandLoginintoNF15)  Time elapsed: 13.009 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Com.NF.NetForumScenarious.LaunchandLoginintoNF15.execute(LaunchandLoginintoNF15.java:120)
+	at Com.NF.NetForumScenarious.LaunchandLoginintoNF15.LaunchApplication(LaunchandLoginintoNF15.java:40)
+
+findorgbyexcelvalues(Com.NF.NetForumScenarious.fFindOrganizationbyexcelvalue)  Time elapsed: 14.61 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Com.NF.NetForumScenarious.fFindOrganizationbyexcelvalue.execute(fFindOrganizationbyexcelvalue.java:80)
+	at Com.NF.NetForumScenarious.fFindOrganizationbyexcelvalue.findorgbyexcelvalues(fFindOrganizationbyexcelvalue.java:33)
+

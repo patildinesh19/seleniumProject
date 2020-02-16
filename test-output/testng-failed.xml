@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="Com.NF.Config.Listener"/>
+  </listeners>
+  <test name="Addmembershiptoorg(failed)">
+    <parameter name="Launch_Application_inputs" value="C:\\NetforumUpgradeInMaven\\NetforumUpgrade\\NF_Input.xlsx,LaunchNF"/>
+    <parameter name="AddMembership" value="C:\\NetforumUpgradeInMaven\\NetforumUpgrade\\NF_Input.xlsx,ADDMembership"/>
+    <parameter name="Add_Organization_Inputs" value="C:\\NetforumUpgradeInMaven\\NetforumUpgrade\\NF_Input.xlsx,ADDorg"/>
+    <parameter name="AddRelatedOrg" value="C:\\NetforumUpgradeInMaven\\NetforumUpgrade\\NF_Input.xlsx,AddRelatedOrg"/>
+    <parameter name="Verifyorg_Inputs" value="C:\\NetforumUpgradeInMaven\\NetforumUpgrade\\NF_Input.xlsx,VerifyOrg"/>
+    <classes>
+      <class name="Com.NF.NetForumScenarious.Addorganization">
+        <methods>
+          <include name="AddRotaryOrganization" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setenvironmentInof"/>
+        </methods>
+      </class> <!-- Com.NF.NetForumScenarious.Addorganization -->
+      <class name="Com.NF.NetForumScenarious.LaunchandLoginintoNF15">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="LaunchApplication"/>
+          <include name="beforeMethod"/>
+          <include name="setenvironmentInof"/>
+        </methods>
+      </class> <!-- Com.NF.NetForumScenarious.LaunchandLoginintoNF15 -->
+      <class name="Com.NF.NetForumScenarious.AddOrgMembership">
+        <methods>
+          <include name="addorgmembership"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setenvironmentInof"/>
+        </methods>
+      </class> <!-- Com.NF.NetForumScenarious.AddOrgMembership -->
+      <class name="Com.NF.NetForumScenarious.VerifyOrganization">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setenvironmentInof"/>
+          <include name="verifyAddOrganization"/>
+        </methods>
+      </class> <!-- Com.NF.NetForumScenarious.VerifyOrganization -->
+      <class name="Com.NF.NetForumScenarious.AddRelatedorganization">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="AssignClubtoDistrict"/>
+          <include name="beforeMethod"/>
+          <include name="setenvironmentInof"/>
+        </methods>
+      </class> <!-- Com.NF.NetForumScenarious.AddRelatedorganization -->
+    </classes>
+  </test> <!-- Addmembershiptoorg(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
